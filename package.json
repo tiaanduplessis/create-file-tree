@@ -1,0 +1,32 @@
+{
+  "name": "create-file-tree",
+  "version": "1.0.0",
+  "description": "Create a file tree",
+  "main": "index.js",
+  "repository": "https://github.com/tiaanduplessis/create-file-tree",
+  "author": "Tiaan du Plessis",
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "lint": "standard --fix",
+    "test": "jest",
+    "coverage": "jest --coverage"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "rimraf": "^2.6.2",
+    "standard": "^12.0.1"
+  },
+  "standard": {
+    "env": {
+      "node": true,
+      "jest": true
+    }
+  },
+  "keywords": [
+    "tree",
+    "fs"
+  ]
+}
